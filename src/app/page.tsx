@@ -141,11 +141,6 @@ export default function Home() {
         </aside>
 
         <main className="lg:col-span-6 lg:order-2 order-1">
-           <h1 className="text-5xl font-headline font-bold mb-6 flex items-center text-primary drop-shadow-[0_0_8px_hsl(var(--primary))]">
-             <Newspaper className="mr-3 h-10 w-10" />
-             Headlines
-           </h1>
-
           <Card className="mb-8 group overflow-hidden">
             <div className="relative">
               <Image
