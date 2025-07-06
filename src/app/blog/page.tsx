@@ -73,7 +73,7 @@ export default function BlogPage() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-headline font-extrabold tracking-tight">CryptoPulse Blog</h1>
+        <h1 className="text-6xl md:text-7xl font-headline font-extrabold tracking-tight text-primary drop-shadow-[0_0_10px_hsl(var(--primary))]">CryptoPulse Blog</h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
           Your source for the latest insights, analysis, and news in the world of cryptocurrency.
         </p>
@@ -81,7 +81,7 @@ export default function BlogPage() {
 
       <div className="grid gap-8 lg:grid-cols-3 sm:grid-cols-2">
         {blogPosts.map((post) => (
-          <Card key={post.slug} className="flex flex-col overflow-hidden group">
+          <Card key={post.slug} className="flex flex-col overflow-hidden group hover:border-primary/50">
             <div className="flex-shrink-0">
               <Image 
                 className="h-48 w-full object-cover" 
@@ -93,7 +93,7 @@ export default function BlogPage() {
               />
             </div>
             <CardHeader className="flex-grow">
-              <CardTitle className="font-headline text-xl">{post.title}</CardTitle>
+              <CardTitle className="font-headline text-2xl">{post.title}</CardTitle>
             </CardHeader>
             <CardContent className="flex-grow">
               <p className="text-muted-foreground">{post.excerpt}</p>

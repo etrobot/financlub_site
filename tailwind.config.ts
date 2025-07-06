@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Lato', 'sans-serif'],
-        headline: ['Montserrat', 'sans-serif'],
+        terminal: ['"Share Tech Mono"', 'monospace'],
+        headline: ['VT323', 'monospace'],
         code: ['monospace'],
       },
       colors: {

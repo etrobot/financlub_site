@@ -7,6 +7,7 @@ import { Calendar as CalendarIcon } from "lucide-react"
 import { Calendar } from "@/components/ui/calendar"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { cn } from "@/lib/utils"
 
 const events = [
   {
@@ -35,18 +36,20 @@ const events = [
   },
 ];
 
-const getBadgeVariant = (type: string) => {
+const getBadgeClasses = (type: string) => {
+  // In a real app, you might have a more sophisticated system for this
+  // But for the cyberpunk theme, we'll cycle through our chart colors
   switch (type) {
     case "Conference":
-      return "bg-blue-500/20 text-blue-700 dark:text-blue-400";
+      return "border-transparent bg-chart-1/20 text-chart-1";
     case "Upgrade":
-      return "bg-purple-500/20 text-purple-700 dark:text-purple-400";
+      return "border-transparent bg-chart-2/20 text-chart-2";
     case "Launch":
-      return "bg-green-500/20 text-green-700 dark:text-green-400";
+      return "border-transparent bg-chart-3/20 text-chart-3";
     case "Summit":
-      return "bg-orange-500/20 text-orange-700 dark:text-orange-400";
+      return "border-transparent bg-chart-4/20 text-chart-4";
     default:
-      return "default";
+      return "secondary";
   }
 }
 
@@ -75,6 +78,7 @@ export function CalendarClient() {
                   color: 'hsl(var(--primary-foreground))',
                   backgroundColor: 'hsl(var(--primary))',
                   borderRadius: '9999px',
+                  boxShadow: '0 0 8px hsl(var(--primary))'
                 },
               }}
             />
@@ -85,7 +89,7 @@ export function CalendarClient() {
       <div className="lg:col-span-1">
         <Card className="h-full">
           <CardHeader>
-            <CardTitle className="font-headline">
+            <CardTitle className="font-headline text-3xl">
               Events for {date ? format(date, "MMMM d, yyyy") : "..."}
             </CardTitle>
           </CardHeader>
@@ -97,8 +101,8 @@ export function CalendarClient() {
                     <CalendarIcon className="h-5 w-5 mt-1 text-primary flex-shrink-0" />
                     <div>
                       <div className="flex items-center gap-2 mb-1">
-                        <h4 className="font-semibold">{event.title}</h4>
-                        <Badge variant="outline" className={getBadgeVariant(event.type)}>
+                        <h4 className="font-semibold text-lg">{event.title}</h4>
+                        <Badge variant="outline" className={cn(getBadgeClasses(event.type))}>
                           {event.type}
                         </Badge>
                       </div>

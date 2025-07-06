@@ -118,8 +118,8 @@ export default function Home() {
         <aside className="lg:col-span-3 lg:order-1 order-3">
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center text-xl font-headline">
-                <Calendar className="mr-2 h-5 w-5 text-primary" />
+              <CardTitle className="flex items-center text-3xl font-headline text-primary drop-shadow-[0_0_5px_hsl(var(--primary))]">
+                <Calendar className="mr-2 h-6 w-6" />
                 Upcoming Events
               </CardTitle>
             </CardHeader>
@@ -141,8 +141,8 @@ export default function Home() {
         </aside>
 
         <main className="lg:col-span-6 lg:order-2 order-1">
-           <h1 className="text-3xl font-headline font-bold mb-6 flex items-center">
-             <Newspaper className="mr-3 h-8 w-8 text-primary" />
+           <h1 className="text-5xl font-headline font-bold mb-6 flex items-center text-primary drop-shadow-[0_0_8px_hsl(var(--primary))]">
+             <Newspaper className="mr-3 h-10 w-10" />
              Headlines
            </h1>
 
@@ -158,16 +158,16 @@ export default function Home() {
               />
               <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6">
-                 <h2 className="text-3xl font-headline font-bold text-white">{featuredNews.title}</h2>
-                 <p className="text-sm text-slate-300 mt-2">{featuredNews.source} - {featuredNews.time}</p>
+                 <h2 className="text-4xl font-headline font-bold text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">{featuredNews.title}</h2>
+                 <p className="text-sm text-slate-300 mt-2 font-terminal">{featuredNews.source} - {featuredNews.time}</p>
               </div>
             </div>
           </Card>
 
-          <h2 className="text-2xl font-headline font-bold mb-4">Top Stories</h2>
+          <h2 className="text-4xl font-headline font-bold mb-4 text-primary drop-shadow-[0_0_5px_hsl(var(--primary))]">Top Stories</h2>
           <div className="space-y-4">
             {topStories.map((item) => (
-              <Card key={item.id} className="overflow-hidden transition-shadow hover:shadow-lg">
+              <Card key={item.id} className="overflow-hidden transition-shadow hover:shadow-lg hover:border-primary/50">
                 <div className="flex items-center">
                    <div className="flex-shrink-0">
                       <Image
@@ -180,7 +180,7 @@ export default function Home() {
                       />
                     </div>
                   <div className="p-4 flex-grow">
-                    <h3 className="text-lg font-bold font-headline mb-1">{item.title}</h3>
+                    <h3 className="text-xl font-bold font-headline mb-1">{item.title}</h3>
                     <div className="text-xs text-muted-foreground">
                       <span>{item.source} &middot; {item.time}</span>
                     </div>
@@ -197,8 +197,8 @@ export default function Home() {
         <aside className="lg:col-span-3 lg:order-3 order-2">
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center text-xl font-headline">
-                <BarChart3 className="mr-2 h-5 w-5 text-primary" />
+              <CardTitle className="flex items-center text-3xl font-headline text-primary drop-shadow-[0_0_5px_hsl(var(--primary))]">
+                <BarChart3 className="mr-2 h-6 w-6" />
                 Crypto Rankings
               </CardTitle>
             </CardHeader>
@@ -226,7 +226,7 @@ export default function Home() {
                       </TableCell>
                       <TableCell className="text-right px-4">
                         <div className="font-medium">${crypto.price.toLocaleString()}</div>
-                         <div className={`text-xs ${crypto.change24h > 0 ? 'text-green-600' : 'text-red-600'}`}>
+                         <div className={`text-xs ${crypto.change24h > 0 ? 'text-foreground' : 'text-accent'}`}>
                            {crypto.change24h > 0 ? '+' : ''}{crypto.change24h.toFixed(2)}%
                          </div>
                       </TableCell>
