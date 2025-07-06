@@ -62,7 +62,7 @@ const newsData = [
     title: 'Bitcoin Hits New All-Time High Amidst Market Frenzy',
     source: 'Crypto News Daily',
     time: '2 hours ago',
-    image: 'https://source.unsplash.com/random/800x450?cryptocurrency,abstract',
+    image: 'https://picsum.photos/seed/featured-news/800/450',
     aiHint: 'cryptocurrency abstract',
   },
   {
@@ -70,7 +70,7 @@ const newsData = [
     title: 'Ethereum "Merge" Upgrade: What to Expect Next',
     source: 'DeFi Times',
     time: '5 hours ago',
-    image: 'https://source.unsplash.com/random/150x100?blockchain,network',
+    image: 'https://picsum.photos/seed/top-story-1/150/100',
     aiHint: 'blockchain network',
   },
   {
@@ -78,7 +78,7 @@ const newsData = [
     title: 'Governments Worldwide Move Towards CBDC Adoption',
     source: 'Financial Tech Today',
     time: '1 day ago',
-    image: 'https://source.unsplash.com/random/150x100?digital,currency',
+    image: 'https://picsum.photos/seed/top-story-2/150/100',
     aiHint: 'digital currency',
   },
 ];

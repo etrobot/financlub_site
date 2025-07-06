@@ -11,9 +11,9 @@ const blogPosts = [
     title: "How to Navigate the Next Crypto Bull Market",
     excerpt: "Strategies and tips for making the most of market upswings, from portfolio management to risk assessment.",
     author: "Jane Doe",
-    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,woman",
+    authorAvatar: "https://picsum.photos/seed/jane-doe/100/100",
     date: "October 26, 2023",
-    image: "https://source.unsplash.com/random/600x400?financial,chart,arrow",
+    image: "https://picsum.photos/seed/navigating-the-bull-market/600/400",
     aiHint: "financial chart arrow"
   },
   {
@@ -21,9 +21,9 @@ const blogPosts = [
     title: "A Beginner's Guide to Decentralized Finance (DeFi)",
     excerpt: "Explore the core concepts of DeFi, including lending, borrowing, and yield farming, and how to get started.",
     author: "John Smith",
-    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,man",
+    authorAvatar: "https://picsum.photos/seed/john-smith/100/100",
     date: "October 22, 2023",
-    image: "https://source.unsplash.com/random/600x400?abstract,network",
+    image: "https://picsum.photos/seed/understanding-defi/600/400",
     aiHint: "abstract network"
   },
   {
@@ -31,9 +31,9 @@ const blogPosts = [
     title: "Beyond the Hype: Real-World Use Cases for NFTs",
     excerpt: "Discover how Non-Fungible Tokens are being used in gaming, art, real estate, and more.",
     author: "Alex Johnson",
-    authorAvatar: "https://source.unsplash.com/random/100x100?portrait",
+    authorAvatar: "https://picsum.photos/seed/alex-johnson/100/100",
     date: "October 18, 2023",
-    image: "https://source.unsplash.com/random/600x400?digital,art",
+    image: "https://picsum.photos/seed/nft-use-cases/600/400",
     aiHint: "digital art"
   },
     {
@@ -41,9 +41,9 @@ const blogPosts = [
     title: "Crypto Security Essentials: Protecting Your Digital Assets",
     excerpt: "Learn the best practices for securing your cryptocurrencies, from hardware wallets to strong passwords.",
     author: "Emily White",
-    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,woman",
+    authorAvatar: "https://picsum.photos/seed/emily-white/100/100",
     date: "October 15, 2023",
-    image: "https://source.unsplash.com/random/600x400?security,shield",
+    image: "https://picsum.photos/seed/crypto-security-essentials/600/400",
     aiHint: "security shield"
   },
   {
@@ -51,9 +51,9 @@ const blogPosts = [
     title: "Layer 2 Scaling Solutions Explained",
     excerpt: "An in-depth look at how technologies like Rollups and Sidechains are solving Ethereum's scalability problem.",
     author: "Michael Brown",
-    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,man",
+    authorAvatar: "https://picsum.photos/seed/michael-brown/100/100",
     date: "October 11, 2023",
-    image: "https://source.unsplash.com/random/600x400?blockchain,layers",
+    image: "https://picsum.photos/seed/layer-2-scaling-solutions/600/400",
     aiHint: "blockchain layers"
   },
   {
@@ -61,9 +61,9 @@ const blogPosts = [
     title: "The Psychology of Crypto Trading: Mastering Your Emotions",
     excerpt: "Understand the psychological pitfalls of trading and how to develop a disciplined mindset for long-term success.",
     author: "Sophia Green",
-    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,woman",
+    authorAvatar: "https://picsum.photos/seed/sophia-green/100/100",
     date: "October 7, 2023",
-    image: "https://source.unsplash.com/random/600x400?brain,maze",
+    image: "https://picsum.photos/seed/the-psychology-of-trading/600/400",
     aiHint: "brain maze"
   }
 ];
