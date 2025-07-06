@@ -118,7 +118,7 @@ export default function Home() {
         <aside className="lg:col-span-3 lg:order-1 order-3">
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center text-3xl font-headline text-primary drop-shadow-[0_0_5px_hsl(var(--primary))]">
+              <CardTitle className="flex items-center text-3xl font-headline text-primary dark:drop-shadow-[0_0_5px_hsl(var(--primary))]">
                 <Calendar className="mr-2 h-6 w-6" />
                 Upcoming Events
               </CardTitle>
@@ -153,13 +153,13 @@ export default function Home() {
               />
               <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
               <div className="absolute bottom-0 left-0 p-6">
-                 <h2 className="text-4xl font-headline font-bold text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">{featuredNews.title}</h2>
+                 <h2 className="text-4xl font-headline font-bold text-white dark:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">{featuredNews.title}</h2>
                  <p className="text-sm text-slate-300 mt-2 font-terminal">{featuredNews.source} - {featuredNews.time}</p>
               </div>
             </div>
           </Card>
 
-          <h2 className="text-4xl font-headline font-bold mb-4 text-primary drop-shadow-[0_0_5px_hsl(var(--primary))]">Top Stories</h2>
+          <h2 className="text-4xl font-headline font-bold mb-4 text-primary dark:drop-shadow-[0_0_5px_hsl(var(--primary))]">Top Stories</h2>
           <div className="space-y-4">
             {topStories.map((item) => (
               <Card key={item.id} className="overflow-hidden transition-shadow hover:shadow-lg hover:border-primary/50">
@@ -192,7 +192,7 @@ export default function Home() {
         <aside className="lg:col-span-3 lg:order-3 order-2">
           <Card>
             <CardHeader>
-              <CardTitle className="flex items-center text-3xl font-headline text-primary drop-shadow-[0_0_5px_hsl(var(--primary))]">
+              <CardTitle className="flex items-center text-3xl font-headline text-primary dark:drop-shadow-[0_0_5px_hsl(var(--primary))]">
                 <BarChart3 className="mr-2 h-6 w-6" />
                 Crypto Rankings
               </CardTitle>
