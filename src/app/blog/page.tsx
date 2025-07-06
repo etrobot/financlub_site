@@ -11,9 +11,9 @@ const blogPosts = [
     title: "How to Navigate the Next Crypto Bull Market",
     excerpt: "Strategies and tips for making the most of market upswings, from portfolio management to risk assessment.",
     author: "Jane Doe",
-    authorAvatar: "https://placehold.co/100x100.png",
+    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,woman",
     date: "October 26, 2023",
-    image: "https://placehold.co/600x400.png",
+    image: "https://source.unsplash.com/random/600x400?financial,chart,arrow",
     aiHint: "financial chart arrow"
   },
   {
@@ -21,9 +21,9 @@ const blogPosts = [
     title: "A Beginner's Guide to Decentralized Finance (DeFi)",
     excerpt: "Explore the core concepts of DeFi, including lending, borrowing, and yield farming, and how to get started.",
     author: "John Smith",
-    authorAvatar: "https://placehold.co/100x100.png",
+    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,man",
     date: "October 22, 2023",
-    image: "https://placehold.co/600x400.png",
+    image: "https://source.unsplash.com/random/600x400?abstract,network",
     aiHint: "abstract network"
   },
   {
@@ -31,9 +31,9 @@ const blogPosts = [
     title: "Beyond the Hype: Real-World Use Cases for NFTs",
     excerpt: "Discover how Non-Fungible Tokens are being used in gaming, art, real estate, and more.",
     author: "Alex Johnson",
-    authorAvatar: "https://placehold.co/100x100.png",
+    authorAvatar: "https://source.unsplash.com/random/100x100?portrait",
     date: "October 18, 2023",
-    image: "https://placehold.co/600x400.png",
+    image: "https://source.unsplash.com/random/600x400?digital,art",
     aiHint: "digital art"
   },
     {
@@ -41,9 +41,9 @@ const blogPosts = [
     title: "Crypto Security Essentials: Protecting Your Digital Assets",
     excerpt: "Learn the best practices for securing your cryptocurrencies, from hardware wallets to strong passwords.",
     author: "Emily White",
-    authorAvatar: "https://placehold.co/100x100.png",
+    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,woman",
     date: "October 15, 2023",
-    image: "https://placehold.co/600x400.png",
+    image: "https://source.unsplash.com/random/600x400?security,shield",
     aiHint: "security shield"
   },
   {
@@ -51,9 +51,9 @@ const blogPosts = [
     title: "Layer 2 Scaling Solutions Explained",
     excerpt: "An in-depth look at how technologies like Rollups and Sidechains are solving Ethereum's scalability problem.",
     author: "Michael Brown",
-    authorAvatar: "https://placehold.co/100x100.png",
+    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,man",
     date: "October 11, 2023",
-    image: "https://placehold.co/600x400.png",
+    image: "https://source.unsplash.com/random/600x400?blockchain,layers",
     aiHint: "blockchain layers"
   },
   {
@@ -61,9 +61,9 @@ const blogPosts = [
     title: "The Psychology of Crypto Trading: Mastering Your Emotions",
     excerpt: "Understand the psychological pitfalls of trading and how to develop a disciplined mindset for long-term success.",
     author: "Sophia Green",
-    authorAvatar: "https://placehold.co/100x100.png",
+    authorAvatar: "https://source.unsplash.com/random/100x100?portrait,woman",
     date: "October 7, 2023",
-    image: "https://placehold.co/600x400.png",
+    image: "https://source.unsplash.com/random/600x400?brain,maze",
     aiHint: "brain maze"
   }
 ];

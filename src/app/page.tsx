@@ -62,7 +62,7 @@ const newsData = [
     title: 'Bitcoin Hits New All-Time High Amidst Market Frenzy',
     source: 'Crypto News Daily',
     time: '2 hours ago',
-    image: 'https://placehold.co/800x450.png',
+    image: 'https://source.unsplash.com/random/800x450?cryptocurrency,abstract',
     aiHint: 'cryptocurrency abstract',
   },
   {
@@ -70,7 +70,7 @@ const newsData = [
     title: 'Ethereum "Merge" Upgrade: What to Expect Next',
     source: 'DeFi Times',
     time: '5 hours ago',
-    image: 'https://placehold.co/150x100.png',
+    image: 'https://source.unsplash.com/random/150x100?blockchain,network',
     aiHint: 'blockchain network',
   },
   {
@@ -78,7 +78,7 @@ const newsData = [
     title: 'Governments Worldwide Move Towards CBDC Adoption',
     source: 'Financial Tech Today',
     time: '1 day ago',
-    image: 'https://placehold.co/150x100.png',
+    image: 'https://source.unsplash.com/random/150x100?digital,currency',
     aiHint: 'digital currency',
   },
 ];
@@ -95,12 +95,12 @@ const eventsData = [
     description: "Solana's annual conference for developers and creators.",
   },
   {
-    date: new Date(2024, 11, 5),
+    date: new Date(2025, 0, 15),
     title: "NFT Paris",
     description: "The premier event for Non-Fungible Tokens in Europe.",
   },
   {
-    date: new Date(2025, 0, 15),
+    date: new Date(2025, 1, 15),
     title: "Cardano Summit",
     description: "Community-driven event exploring the future of Cardano.",
   },
